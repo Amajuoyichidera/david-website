@@ -2,6 +2,29 @@
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
 
+/*==========================================
+  2. Preloder CSS
+============================================*/
+#Preloder{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FF3258;
+	display: flex;
+	z-index: 999;
+	justify-content: center;
+	align-items: center;
+}
+#Preloder svg{
+	width: 5rem;
+}
+.loaded{
+	visibility: hidden;
+	opacity: 0;
+}
+
 
 .about__photo, .work__image {
     border-radius: 10px;

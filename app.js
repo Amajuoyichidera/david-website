@@ -65,3 +65,12 @@
       }
   }
 
+
+  $(document).ready(function() {
+    setTimeout(()=>{
+      $('#Preloder').addClass('loaded');
+    },1500);
+    setTimeout(()=>{
+      $('#Preloder').remove('loaded');
+    },4000);
+  })

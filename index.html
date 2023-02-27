@@ -29,6 +29,31 @@
 
 <body>
 
+  <div id="Preloder">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <style>
+        @keyframes rotate-center {
+          0% {
+            -webkit-transform: rotate(0);
+            transform: rotate(0)
+          }
+
+          to {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+          }
+        }
+      </style>
+      <g style="transform-origin:center center;animation:rotate-center 1s cubic-bezier(.55,.085,.68,.53) infinite alternate forwards"
+        fill="#ffffff">
+        <circle cx="4" cy="12" r="2" />
+        <circle cx="12" cy="12" r="2" />
+        <circle cx="20" cy="12" r="2" />
+      </g>
+    </svg>
+
+  </div>
+
   <!-- ***** Header ***** -->
 
   <header class="header" role="banner" id="top">
@@ -836,6 +861,15 @@
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/https___raw.githubusercontent.com_nisarhassan12_portfolio-template_master_images_arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="/contact.js"></script>
+
+      
   <script src="./app.js"></script>
 </body>
 
